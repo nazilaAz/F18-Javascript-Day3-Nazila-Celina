@@ -25,3 +25,4 @@ if (temp < 10) {
 } else {
     document.write(`The weather is <b>very hot</b> by ${temp} degrees. <br>`);
 }
+document.write("<hr>")
