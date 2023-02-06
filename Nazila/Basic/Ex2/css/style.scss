@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import "../Partials/media";
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 425px;
+    font-family: 'Itim', cursive;
+    background-color: #20262E;
+    color: white;
+}
+
+.Container {
+    header {
+        display: flex;
+        flex-direction: column;
+        .cityTemp {
+            padding: .5rem .5rem;
+            font-size: .8rem;
+        }
+        #date {
+            font-size: 1rem;
+            margin: .2rem .5rem;
+        }
+    }
+    nav {
+        margin-top: .2rem .5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        .imgContainer {
+            /*  width: 60vw;
+            height: 100vh;
+            margin: 20%; 
+            border: solid 1px grey;*/
+            margin: .2rem auto;
+        }
+    }
+    hr {
+        width: 90%;
+        margin: .2rem auto;
+        //padding: .2rem .2rem;
+    }
+}
