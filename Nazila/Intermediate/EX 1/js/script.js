@@ -21,7 +21,6 @@ for (let index in sGrade) {
     let sum = 0;
     for (let i = 0; i < sGrade.length; i++) {
         sum = ((sum + sGrade[i][1] / 5));
-        //console.log(sum);
     }
     if (sum <= 60) {
         document.getElementsByClassName("result")[0].innerHTML = "F";
